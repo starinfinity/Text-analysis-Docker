@@ -8,3 +8,14 @@ Docker commit *name of the container you copied* *new name you want for the imag
 Docker images
 
 #if the image is successfully formed follow next step
+#create a Text file named Dockerfile 
+
+#this file will be created on your local machine not on any image or container
+#can use both command line or applications like notepad,etc to create this file 
+
+#touch command is used in linux.
+
+touch Dockerfile 
+vim Dockerfile
+
+# i have added my Docker file 
