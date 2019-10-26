@@ -1,0 +1,9 @@
+FROM *name of the new image you created*
+RUN apt-get update && apt-get clean
+RUN mkdir -p /*any name for directory*
+WORKDIR /*name of the directory you created above*
+ADD *name of script file which will create after this* /*name of the directory you created above*
+#example ADD mycode.sh /example
+EXPOSE 8484
+ENTRYPOINT["./mycode.sh"] 
+#replace mycode.sh with your script file 
