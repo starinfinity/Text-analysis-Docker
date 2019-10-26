@@ -1,0 +1,12 @@
+TO BUILD THE DOCKER IMAGE AND RUN 
+
+1. open your docker window and browse to the location where your docker file and script files are
+2. build an image using following command
+>>>docker image build -t *name of the new image file* .  
+# don't forget the '.' in the end it point the current directory
+
+####it will create a new image if you haven't missed anything and will import all the text files and give output
+
+
+Export DOCKER IMAGE AS .tar FILE
+docker save *image name* > *name*.tar
