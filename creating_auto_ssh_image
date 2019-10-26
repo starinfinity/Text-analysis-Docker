@@ -1,0 +1,18 @@
+#open Docker and create a ubuntu image 
+Docker run -ti ubuntu
+
+#inside that ubunut image, install ssh which will generate key
+apt-get install openssh-server
+
+#generate a key
+ssh-keygen
+
+#do not add any passphrase
+#copy the key to server i.e. hadoop-gate in my case
+ssh-copy-id -i ~/.ssh/*name of the key* username@hadoop-gate-0.eecs.uc.edu
+#enter your password
+
+#test the key 
+ssh -i ~/.ssh/*name of the key* username@hadoop-gate-0.eecs.uc.edu
+
+#exit the container 
