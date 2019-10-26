@@ -39,3 +39,7 @@ Below are the instruction and descriptions of file in order of their use
    6.2. add your code(Assignment.java) and text file
 
 7. **BUILD_AND_RUN.txt** - file with instructions to build, run and download the Docker image. 
+
+
+SCREENSHOT of RESULT:
+![Image description](freq_word.jpeg)
