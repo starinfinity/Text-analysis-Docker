@@ -1,0 +1,10 @@
+#check the name of the docker container 
+Docker ps -a
+
+#copy the name of the container you created and commit the container
+Docker commit *name of the container you copied* *new name you want for the image*
+
+#check whether a new image is formed or not
+Docker images
+
+#if the image is successfully formed follow next step
